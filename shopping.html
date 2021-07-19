@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoppinglist</title>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <link rel="stylesheet" href="./購物.css" />
+    <script src="./js/jquery.min.js"></script>
+    <script src="shoppingList.js"></script>
+</head>
+
+<body>
+    <df-messenger intent="WELCOME" chat-title="Shpping小舖" agent-id="02e19ac1-968b-4dcc-be18-ca46bb687064" language-code="zh-tw"></df-messenger>
+
+    <div id="buylist">
+        <h1>Shoppinglist 購物清單</h1>
+        <div class="buy_item control_panel">
+            <label>商品</label>
+            <input id="input_name" placeholder="名稱..." />
+            <label>價格</label>
+            <input id="input_price" placeholder="234..." /><span><button id="add">+新增</button></span>
+        </div>
+        <div id="items_list"></div>
+        <div id="recommand_items">
+            <!-- 在h4後加一個span放button -->
+            <h4>您可能想來點...</h4>
+            <div class="items">
+
+            </div>
+        </div>
+    </div>
+
+    <script></script>
+</body>
+
+</html>

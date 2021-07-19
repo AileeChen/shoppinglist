@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            /* border: solid 1px black; */
+            position: relative;
+        }
+        
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        body {
+            background-color: #d1d1d1;
+            background-image: url("./img/373814.jpeg");
+            /* border-top: solid 20px rgb(203, 215, 237);
+            border-bottom: solid 20px rgb(203, 215, 237); */
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .nameCard {
+            width: 350px;
+            height: 200px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            background-color: rgb(228, 194, 248);
+            letter-spacing: 1px;
+            color: rgba(0, 0, 0, 0.6);
+            overflow: hidden;
+            border: solid 1px rgba(0, 0, 0, 0.4);
+            border-radius: 6px;
+            box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.2)
+        }
+        
+        .nameCard h2 {
+            font-size: 25px;
+        }
+        
+        .nameCard span {
+            font-size: 12px;
+        }
+        
+        .nameCard p {
+            font-size: 12px;
+            line-height: 22px;
+        }
+        
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            position: absolute;
+        }
+        
+        .circle1 {
+            right: 100px;
+            bottom: -80px;
+            background-color: rgb(161, 154, 198);
+        }
+        
+        .circle2 {
+            width: 60px;
+            right: -30px;
+            height: 60px;
+            top: -30px;
+            border: solid 5px rgb(245, 192, 210);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nameCard">
+        <a href="./購物.html">
+            <h2>歡迎來到shopping商店<span>(開心購物)</span>
+            </h2>
+            <h5>點我可前往下個頁面</h5>
+            <hr>
+            <p>頁面可輕鬆計算您所購買物品及所花費金額，<br> 輕鬆控管您的開支，<br> 也有廣告使你買買買。
+            </p>
+        </a>
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+    </div>
+
+</body>
+
+</html>
